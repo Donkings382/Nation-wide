@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLO</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style/style.css" />
+  </head>
+  <body>
+    <header class="container1 container py-3">
+      <div class="site-header row align-items-center">
+        <div class="col-12 col-md-6 text-md-start text-center mb-3 mb-md-0">
+          <div class="img-logo mb-2">
+            <img
+              src="./nationwide-logos/nlo-logo-small.png"
+              alt="Logo"
+              class="img-fluid"
+              style="max-height: 80px"
+            />
+          </div>
+          <h1 class="title h4 mb-2">Nationwide League One</h1>
+        </div>
+
+        <div class="col-12 col-md-6 text-md-end text-center">
+          <input
+            type="text"
+            class="form-control d-inline-block"
+            style="max-width: 300px"
+            placeholder="Search teams..."
+          />
+        </div>
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navigation-bar navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="menu navbar-brand d-md-none" href="#">Menu</a>
+          <button
+            class="btn1 navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="mainNavbar"
+          >
+            <ul class="nav-links navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fixtures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Results</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">League table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media Hub</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container2 container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div
+              id="mediaCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- Image Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="media-wrapper">
+                    <img
+                      src="../NLO/nationwide-pic-super8/sporting-lagos.jpg"
+                      class="d-block w-100"
+                      alt="Image 1"
+                    />
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>Sporting Lagos Clinch Victory</h5>
+                    <p>Dominant performance in the super 8 playoffs</p>
+                  </div>
+                </div>
+
+                <!-- Video Slide -->
+                <div class="carousel-item">
+                  <div class="media-wrapper">
+                    <video class="d-block w-100" autoplay muted loop>
+                      <source
+                        src="./nationwide-vid-super8/REMO STARS and SPORTING LAGOS BATTLE IN A DRAMATIC NAIJA SUPER 8 FINAL WATCH HIGHLIGHTS HERE.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>Match Highlights</h5>
+                    <p>Watch moments from the NLO showdown!</p>
+                  </div>
+                </div>
+
+                <!-- Image Slide 2 -->
+                <div class="carousel-item">
+                  <div class="media-wrapper">
+                    <img
+                      src="./nationwide-pic-super8/Kwara-United-U-19-1200x900.jpg"
+                      class="d-block w-100"
+                      alt="Image 2"
+                    />
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>Kwara United U-19</h5>
+                    <p>
+                      Crowned Inaugural National Youth League Champions in
+                      Thrilling Finale
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#mediaCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#mediaCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+          <!-- rightside column -->
+          <div class="col-md-4 pt-5">
+            <div class="league-summary">
+              <h3><span>&#x1F3C6;</span>League Table</h3>
+              <h6 class="league-summary-title"><u>Division Two</u></h6>
+              <div class="table-responsive">
+  <table>
+                <thead>
+                  <tr>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4</td>
+                    <td>Emmerald & Gerald</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>18</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Sam Decent FC</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Emmanuel FC</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Ahudiyamma FC</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>12</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="./league-table.html" class="league-table-link"
+                >...View Full Table</a
+              >
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="container2 container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="fixture-summary pt-5 ms-5">
+            <h3><span>&#x1F4C5;</span>Fixtures and Results</h3>
+            <h6><u>Division One</u></h6>
+            <div class="table2 table-responsive">
+              <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Home Team</th>
+                  <th>Away Team</th>
+                  <th>Result</th>
+                  <th>Centre</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>26 April 2025</td>
+                  <td>N-Youth Sports Academy</td>
+                  <td>Planet Futusal</td>
+                  <td>2 - 1</td>
+                  <td>Bwari Centre</td>
+                </tr>
+                <tr>
+                  <td>26 April 2025</td>
+                  <td>De-Royal Galaxy</td>
+                  <td>RMB Sports</td>
+                  <td>0 - 2</td>
+                  <td>Bwari Centre</td>
+                </tr>
+                <tr>
+                  <td>27 April 2025</td>
+                  <td>Buberio FC</td>
+                  <td>Bright Stars</td>
+                  <td>0 - 2</td>
+                  <td>Oisa Centre(Imo)</td>
+                </tr>
+                <tr>
+                  <td>27 April 2025</td>
+                  <td>Enyimba Feeders FC</td>
+                  <td>Ahudiyannema FC</td>
+                  <td>0 - 2</td>
+                  <td>Oisa Centre(Imo)</td>
+                </tr>
+                <tr>
+                  <td>27 April 2025</td>
+                  <td>Binani Football CLub</td>
+                  <td>Dan Lawan FC</td>
+                  <td>2 - 1</td>
+                  <td>Numan Centre</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="./fixtures.html" class="league-table-link"
+              >...View Full Table</a
+            >
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="player-stats pt-4">
+            <h3><span>&#x26BD;</span>Top Goal Scorers</h3>
+            <div class="table-responsive">
+           <table>
+              <thead>
+                <tr>
+                  <th>Player Name</th>
+                  <th>Club Logo</th>
+                  <th>Club Name</th>
+                  <th>Goals</th>
+                  <th>Centre</th>
+                </tr>
+                <tbody>
+                  <tr>
+                    <td> Yusuf Kareem</td>
+                    <td> <div class="logo"><img src="./nationwide-logos/kwara-united-fc-logo-png_seeklogo-80939.png" alt="image1"></div></td>
+                    <td>Kwara United U-19</td>
+                    <td>9</td>
+                    <td>Kwara Centre</td>
+                  </tr>
+                  <tr>
+                    <td> Saheed Aderibigbe</td>
+                    <td> <div class="logo"><img src="./nationwide-logos/atlantic-Business-fc.jpeg" alt="image1"></div></td>
+                    <td>Atlantic Business FC</td>
+                    <td>7</td>
+                    <td>Lagos Centre</td>
+                  </tr>   
+                  <tr>
+                    <td> Ibrahim Sani</td>
+                    <td> <div class="logo"><img src="./nationwide-logos/POLICE-BARET.jpg" alt="image1"></div></td>
+                    <td>Police Baretta FC</td>
+                    <td>6</td>
+                    <td>Gombe Centre</td>
+                  </tr>
+                   <tr>
+                    <td> Mohammed Abdullahi</td>
+                    <td> <div class="logo"><img src="./nationwide-logos/abs-fc-logo.jpeg" alt="image1"></div></td>
+                    <td>ABS FC</td>
+                    <td>5</td>
+                    <td>Kwara Centre</td>
+                  </tr>
+                </tbody>
+              </thead>
+            </table>
+             <a href="./fixtures.html" class="league-table-link"
+              >...See More</a
+            >
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <h6 class="mt-3"><b>Powered by</b></h6>
+          <div class="mega-logo-sponsor ms-auto"><img src="./nationwide-logos/new-year-mega-lottery-logo.png" alt="image1"></div>
+          <div class="match-of-the-week">
+            <div class="logo-img">
+              <img src="./nationwide-logos/nlo-logo-small.png" alt="">
+            </div>
+            <span class="weekly-matches">Matches of the Week</span>
+          </div>
+          <div class="rows-container">
+             <div class="row row1">
+            <div class="col-md-2">Date</div>
+            <div class="col-md-3">Home Team</div>
+            <div class="col-md-2">Score</div>
+            <div class="col-md-3">Away Team</div>
+            <div class="col-md-2">Centre</div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-2">August 1</div>
+            <div class="col-md-3">FC Ebedie Jnr</div>
+            <div class="col-md-2">6 - 5</div>
+            <div class="col-md-3">Atlantic Business</div>
+            <div class="col-md-2">Ogun Centre</div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">August 2</div>
+            <div class="col-md-3">Dantata FC</div>
+            <div class="col-md-2">3 - 2</div>
+            <div class="col-md-3">Rigiyar Zaki</div>
+            <div class="col-md-2">Kano Centre</div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">August 3</div>
+            <div class="col-md-3">Kano Travellers</div>
+            <div class="col-md-2">7 - 2</div>
+            <div class="col-md-3">Barau/Murtala FC</div>
+            <div class="col-md-2">Kano Centre</div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">August 4</div>
+            <div class="col-md-3">Switch FA</div>
+            <div class="col-md-2">4 - 1</div>
+            <div class="col-md-3">Patriots FC</div>
+            <div class="col-md-2">Sagamu Centre</div>
+          </div>
+           <a href="./fixtures.html" class="league-table-link"
+              >...View more</a>
+        </div>
+          </div>
+         
+        <div class="col-md-4 ms-5">
+          <p class="news-header mt-5">GRASSROOTS</p>
+          <div class="news">
+        Latest news
+          </div>
+          <p class="news-header1">Why NLO releases 44 players ahead of 2025 Season</p>
+         <h6 class="smaller-text"><span class="text-muted">BY</span> <span>NAIRA SPORT</span> <span class="text-muted"><i class="bi bi-calendar"></i>APRIL 22, 2025</span> <span class="text-muted"><i class="bi bi-chat-text"></i> 0 COMMENTS</span> <i class="news-header2 text-muted bi bi-clock"></i><span class="text-muted"> LESS THAN A MINUTE</span> <span class="text-muted"><i class="bi bi-clock-fill"></i> 4 MONTHS AGO</span>
+         </h6>
+         <div class="news-image"><img src="./news-pic/madiba-winner.jpg" alt=""></div>
+         <p class="news-content">The Nationwide League One (NLO), the third tier of Nigerian football, has announced the release of 44 players from its registered teams ahead of the 2025 season due to underlying health issues identified during mandatory medical check-ups.</p>
+         <p class="news-content">The league body made this disclosure in an official statement posted on its X (formerly Twitter) handle on Tuesday, emphasizing the critical importance of regular medical examinations for all players to prevent potential cases of sudden death on the field...</p>
+         <p class="read-more">Read More...</p>
+       <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="Leave-a-reply">Leave a reply</div>
+        </div>
+        <div class="col-md-3">
+          <div class="recent-posts">Recent Posts</div>
+        </div>
+        <div class="col-md-3">
+          <div class="recent-posts">Recent Posts</div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js">
+
+      const burger = document.querySelector('.burger');
+      const navBar = document.querySelector('.navigation-bar');
+
+      burger.addEventListener('click', () => {
+        navBar.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
